@@ -17,9 +17,7 @@ http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   // send response and close connection
   res.write("Hello World\n");
-  res.end('bye\n');
-  // close fails
-  // res.close();
+  res.end('oh well" + ipaddr, + '\n');
 }).listen(port, ipaddr);
 console.log('nodebc2 at azurewebsites' );
 
